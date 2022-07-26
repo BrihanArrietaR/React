@@ -1,0 +1,16 @@
+.flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+    min-height: 100vh;
+}
+
+.flexbox-container > div {
+	width: 50%;
+	padding: 10px;
+    background: rgb(150, 196, 228);
+}
+
+.flexbox-container > div:first-child {
+	margin-right: 10px;
+}

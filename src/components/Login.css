@@ -1,0 +1,39 @@
+
+.div-img{
+    background-image: url('./Chef.jpg');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .formu {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .form-input {
+      width: 90%;
+      height: 30px;
+      margin: 0.5rem;
+      font-size: 30px;
+    }
+    
+    .label{
+      font-size: 25px;
+      color: white;
+  
+    }
+    .form-button {
+      padding: 0.5em 1em;
+      border: none;
+      background: rgb(100, 200, 255);
+      cursor: pointer;
+      font-size: 20px;
+    }
